@@ -339,24 +339,26 @@
                           </ul>
                     </address>
                 </div>
-                <form action="https://formsubmit.co/BlackFoxKS@yandex.com" method="post"></form>
+                <form id="submitform" name="submitform" action="https://formspree.io/f/mzbygakq"method="POST">
                 <div class="col-md-9">
-                    <form autocomplete="off">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name">
-                                <input type="text" class="form-control" placeholder="Phone No.">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name">
+                                <input name="number" type="text" class="form-control" placeholder="Phone No.">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Email">
-                                <input type="text" class="form-control" placeholder="Subject">
+                                <input name="email" type="text" class="form-control" placeholder="Email" name="_replyto">
+                                <input name="subject" type="text" class="form-control" placeholder="Subject">
                             </div>
                         </div>
-                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        <textarea name="text" class="form-control" rows="4" placeholder="Message"></textarea>
                         <div class="text-right">
-                            <a href="#" class="btn send-btn">Send</a>
+                            <button type="submit" class="btn send-btn" style="background-color: chocolate;" onclick="submitform()">Send</button>
+                            <script>
+                                document.getElementById("submitform").reset();
+                            </script>
                         </div>
-                    </form>
+                </form>
                 </div>
             </div>
         </div>
