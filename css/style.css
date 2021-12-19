@@ -318,7 +318,7 @@ a.btn.go-to-btn:hover{
 }
 
 .portfolio-item .hover-bg{
-	height: 280px;
+	height: 250px;
 	overflow: hidden;
 	position: relative;
 }
@@ -620,3 +620,10 @@ nav#footer{
 #footer a:hover{
 	color: #c59a6d;}
 
+img {
+	border-radius: 10%;
+}
+
+spacing {
+	word-spacing: 30px;
+}
