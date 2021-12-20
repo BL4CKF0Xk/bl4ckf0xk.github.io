@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /Soon/
+Disallow: /Soon/index.html
+Disallow: /About/
+Sitemap: https://bl4ckf0xk.github.io/sitemap.xml
