@@ -1,2 +1,13 @@
 plugins:
   - jekyll-seo-tag
+  
+social:
+  name: Kavindu Sahan
+  links:
+    - https://github.com/BL4CKF0Xk
+    
+author: Kavindu Sahan
+
+seo:
+  name: bl4ckf0xk, blackfoxk
+  type: hacking, blackfoxk, blog 
