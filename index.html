@@ -4,9 +4,28 @@
 <head>
     <!-- Basic Page Needs
     ================================================== -->
+    <script>
+    {% seo %}
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BL4CKF0Xk</title>
+    <meta name="description" content="Interesting Information about Hacking, Reverse Engineering, Coding, Low level programming in this website. I'm Still a student and You Can find my personal Projects in this Website">
+    <meta name="yandex-verification" content="fd75fea53dcd451a" />
+    <meta name="og:title" property="og:title" content="Many things About Hacking, Web Development and Coding">
+    
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
+    <meta property="og:site_name" content="WebJeda Blog">
+    <meta property="article:publisher" content="http://www.facebook.com/webjeda" />
+    <meta property="article:author" content="https://www.facebook.com/sharu725" />
+    <meta property="article:published_time" content="{{ page.date }}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- Favicons
     ================================================== -->
@@ -46,7 +65,15 @@
             console.log('particles.json loaded...');
         });
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TK0YQXCBSW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-TK0YQXCBSW');
+    </script>
 </head>
 
 
