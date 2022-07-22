@@ -4,7 +4,7 @@
 }
 .container{
     height: 100%;
-    background-image: url("img/background.png");
+    background-image: url("images/background.png");
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -15,7 +15,7 @@
 
 .new{
     height: 100%;
-    background-image: url("img/back.jpg");
+    background-image: url("images/back.jpg");
     background-position: center;
     background-size: cover;
     padding-top: 50px;
