@@ -1,4 +1,0 @@
-git add .
-git commit -m "paddint correction"
-git push
-npm run deploy
